@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>APPLICATIONS</title>
+    
+</head>
+
+<body style="background-image:url('C:\\Users\\supriya\\Pictures\\Screenshots\\Screenshot (47).png'); background-repeat: no-repeat; background-size: cover;">
+
+    <center>
+        <h1><u>APPLICATION FORM</u></h1>
+
+        
+        <div id="form-container">
+            <form action="applithankyou.html" method="post">
+                <table border="3" align="center">
+                    <tr>
+                        <td colspan="2" align="center"><strong>APPLICATION FORM</strong></td>
+                    </tr>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="first_name" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td>Middle Name:</td>
+                        <td><input type="text" name="middle_name" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="last_name" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><textarea rows="5" cols="40" name="address" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender" value="male" required>Male
+                            <input type="radio" name="gender" value="female" required>Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input type="text" name="phone_number" size="15" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email ID:</td>
+                        <td><input type="email" name="email" placeholder="Enter your email-id" required></td>
+                    </tr>
+                    <tr>
+                        <td>Photo:</td>
+                        <td><input type="file" accept="image/*" name="photo" required></td>
+                    </tr>
+                    <tr>
+                        <td>Branch:</td>
+                        <td>
+                            <select name="branch" required>
+                                <option value="CSE">CSE</option>
+                                <option value="IT">IT</option>
+                                <option value="EEE">EEE</option>
+                                <option value="ECE">ECE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EDUCATIONAL QUALIFICATION:</td>
+                        <td>
+                            <input type="checkbox" name="qualification" value="SSC">SSC<br>
+                            <input type="checkbox" name="qualification" value="Inter" >Inter<br>
+                            <input type="checkbox" name="qualification" value="Diploma" >Diploma<br>
+                            <input type="checkbox" name="qualification" value="BTECH" >BTECH<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>You Belong To:</td>
+                        <td>
+                            <input type="radio" name="status" value="Student" required>Student
+                            <input type="radio" name="status" value="Faculty" required>Faculty
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
